@@ -7,6 +7,9 @@ redirect_from:
   - /resume
 ---
 
+<h2>Curriculum Vitae</h2>
+<p>Click below to download my full CV.</p>
+<a href="_pages/Ho_Jae_Lee_s_CV" target="_blank">Download CV</a>
 {% include base_path %}
 
 Education
