@@ -1,13 +1,25 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me" # "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+I am a Master's student at [ETH Zürich](https://ethz.ch/en.html) studying [Robotics, Systems and Control](https://master-robotics.ethz.ch/). 
+Currently I am a student researcher at [Robotic Systems Lab](https://rsl.ethz.ch/) for my semester project on "Learning Human Robot Handover Skills from Human Demonstrations using Deep RL".
+My research interest lies on the fields of deep reinforcement learning and quadrupedal robotics control. 
+Previously, I received my Bachelor of Science in [Mechanical and Aerospace Engineering](https://aerospace.snu.ac.kr/) (summa cum laude) at [Seoul National University](https://snu.ac.kr/).
+As an undergraduate research, I have worked on developing autonomous drone control algorithms for unmanned delivery system. My bachelor thesis focused on developing visual odometry for drone control.
 
+News
+======
+- **[09/2023]** Started working as a research assistant at Biomimetic Robotics Lab, MIT, USA.
+- **[10/2022]** Started working as a visiting student researcher at Biomimetic Robotics Lab, MIT, USA.
+- **[02/2022]** Started working as a student researcher at Robotic Systems Lab, ETH Zurich, Switzerland.
+- **[09/2021]** Started my Master's program in Robotics, Systems and Control at ETH Zürich, Switzerland.
+ 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
