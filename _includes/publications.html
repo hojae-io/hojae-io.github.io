@@ -1,0 +1,13 @@
+{% for pub in site.publications reversed %}
+<table class="publication-entry">
+<tr>
+{% if pub.media %}<td class="publication-entry__media"><a href="{{ pub.videourl | default: pub.website | default: pub.paperurl }}" target="_blank" rel="noopener noreferrer"><img src="{{ pub.media | relative_url }}" alt="Preview of {{ pub.title }}" loading="lazy"></a></td>{% endif %}
+<td class="publication-entry__details">
+<h2>{{ pub.title }}</h2>
+<h3>{{ pub.authors }}</h3>
+<h3>{{ pub.venue }}, {{ pub.date | date: "%Y" }}</h3>
+{% if pub.website or pub.paperurl or pub.codeurl or pub.videourl %}<h3 class="publication-entry__links">{% if pub.website %}<a href="{{ pub.website }}" target="_blank" rel="noopener noreferrer">Website <i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}{% if pub.paperurl %}<a href="{{ pub.paperurl }}" target="_blank" rel="noopener noreferrer">Paper <i class="fa fa-file" aria-hidden="true"></i></a>{% endif %}{% if pub.codeurl %}<a href="{{ pub.codeurl }}" target="_blank" rel="noopener noreferrer">Code <i class="fa fa-code" aria-hidden="true"></i></a>{% endif %}{% if pub.videourl %}<a href="{{ pub.videourl }}" target="_blank" rel="noopener noreferrer">Video <i class="fa fa-film" aria-hidden="true"></i></a>{% endif %}</h3>{% endif %}
+</td>
+</tr>
+</table>
+{% endfor %}

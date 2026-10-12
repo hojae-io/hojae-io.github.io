@@ -1,0 +1,86 @@
+/* ==========================================================================
+   PUBLICATION ENTRIES (home page)
+   ========================================================================== */
+
+.publication-entry {
+  width: 100%;
+  margin: 0 0 1.5rem;
+  border: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 1em;
+
+  tr,
+  td {
+    border: 0;
+    background: transparent;
+  }
+}
+
+.publication-entry__media {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 0.75rem 1.25rem 0.75rem 0;
+  vertical-align: middle;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    margin: 0;
+  }
+}
+
+.publication-entry__details {
+  padding: 0.75rem 0;
+  vertical-align: middle;
+
+  h3 {
+    margin: 0.4rem 0 0;
+    font-size: 0.85em;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+}
+
+.page__content .publication-entry__details h2 {
+  margin: 0 0 0.55rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.1em;
+  line-height: 1.3;
+}
+
+.publication-entry__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-entry,
+  .publication-entry tbody,
+  .publication-entry tr,
+  .publication-entry td {
+    display: block;
+    width: 100%;
+  }
+
+  .publication-entry__media {
+    min-width: 0;
+    max-width: 100%;
+    padding: 0 0 0.85rem;
+  }
+
+  .publication-entry__details {
+    padding: 0;
+  }
+}

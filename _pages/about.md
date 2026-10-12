@@ -1,62 +1,38 @@
 ---
 permalink: /
-title: "About me" # "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am a Master's student at [ETH Zürich](https://ethz.ch/en.html) studying [Robotics, Systems and Control](https://master-robotics.ethz.ch/). 
-Currently I am a student researcher at [Robotic Systems Lab](https://rsl.ethz.ch/) for my semester project on "Learning Human Robot Handover Skills from Human Demonstrations using Deep RL".
-My research interest lies on the fields of deep reinforcement learning and quadrupedal robotics control. 
-Previously, I received my Bachelor of Science in [Mechanical and Aerospace Engineering](https://aerospace.snu.ac.kr/) (summa cum laude) at [Seoul National University](https://snu.ac.kr/).
-As an undergraduate research, I have worked on developing autonomous drone control algorithms for unmanned delivery system. My bachelor thesis focused on developing visual odometry for drone control.
+I am a Ph.D. candidate in Mechanical Engineering at [MIT](https://www.mit.edu/), working in the [Biomimetic Robotics Lab](https://biomimetics.mit.edu/).
+My research focuses on robot learning and reinforcement learning for humanoid robots, with an emphasis on dexterous manipulation and whole-body control, and on combining model-based optimization with learning-based control.
+I develop MPC- and RL-based controllers for the MIT Humanoid.
+
+In summer 2026, I was a Reinforcement Learning / Robotics Controls Intern at [Tesla](https://www.tesla.com/), where I developed and evaluated reinforcement learning and control algorithms for the Optimus humanoid robot.
+
+Before MIT, I received my M.Sc. in [Robotics, Systems and Control](https://master-robotics.ethz.ch/) from [ETH Zürich](https://ethz.ch/en.html), where I worked at the [Robotic Systems Lab](https://rsl.ethz.ch/) on learning human-robot handover skills from human demonstrations with deep reinforcement learning.
+I received my B.S. in [Mechanical and Aerospace Engineering](https://aerospace.snu.ac.kr/) (minor in Mathematics) from [Seoul National University](https://snu.ac.kr/), where I worked on autonomous drone control and visual odometry for unmanned delivery.
 
 News
 ======
-- **[09/2023]** Started working as a research assistant at Biomimetic Robotics Lab, MIT, USA.
-- **[10/2022]** Started working as a visiting student researcher at Biomimetic Robotics Lab, MIT, USA.
-- **[02/2022]** Started working as a student researcher at Robotic Systems Lab, ETH Zurich, Switzerland.
-- **[09/2021]** Started my Master's program in Robotics, Systems and Control at ETH Zürich, Switzerland.
- 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+- **[05/2026]** Started a summer internship at Tesla as a Reinforcement Learning / Robotics Controls Intern, working on the Optimus humanoid.
+- **[05/2026]** Gave an invited talk at Holiday Robotics, South Korea.
+- **[05/2026]** Our paper [Learning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control](https://arxiv.org/abs/2605.03363) is on arXiv (under review at IEEE T-RO).
+- **[03/2026]** Gave an invited talk at the LIDAR Lab, Georgia Institute of Technology.
+- **[2026]** [Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects via 2D Point Trackers](https://arxiv.org/abs/2604.10415) was accepted to ECCV 2026.
+- **[2026]** [Residual MPC: Blending Reinforcement Learning with GPU-Parallelized Model Predictive Control](https://arxiv.org/abs/2510.12717) was accepted to IEEE Transactions on Robotics.
+- **[2025]** [Learning Humanoid Arm Motion via Centroidal Momentum Regularized Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2507.04140) was accepted to IEEE RA-L.
+- **[2024]** [Integrating Model-Based Footstep Planning with Model-Free Reinforcement Learning for Dynamic Legged Locomotion](https://arxiv.org/abs/2408.02662) was accepted to IROS 2024, and [CusADi: A GPU Parallelization Framework for Symbolic Expressions and Optimal Control](https://arxiv.org/abs/2408.09662) was accepted to IEEE RA-L.
+- **[09/2023]** Started my Ph.D. at the Biomimetic Robotics Lab, MIT.
+- **[10/2022]** Started as a visiting student researcher at the Biomimetic Robotics Lab, MIT.
+- **[02/2022]** Started as a student researcher at the Robotic Systems Lab, ETH Zürich.
+- **[09/2021]** Started my Master's program in Robotics, Systems and Control at ETH Zürich.
 
-A data-driven personal website
+Publications
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+For a complete and current record, please visit my [Google Scholar profile]({{ site.author.googlescholar }}).
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+{% include publications.html %}
