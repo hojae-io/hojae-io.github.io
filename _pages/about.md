@@ -7,6 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<p style="text-align: center;"><strong>Open to Work: AI Research Scientist (Expected Graduation in March 2027)</strong></p>
+
 I am a Ph.D. candidate in Mechanical Engineering at [MIT](https://www.mit.edu/), working in the [Biomimetic Robotics Lab](https://biomimetics.mit.edu/).
 My research focuses on robot learning and reinforcement learning for humanoid robots, with an emphasis on dexterous manipulation and whole-body control, and on combining model-based optimization with learning-based control.
 I develop MPC- and RL-based controllers for the MIT Humanoid.
